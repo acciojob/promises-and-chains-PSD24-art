@@ -5,7 +5,7 @@ let userForm = document.getElementById("userForm");
 
 btn.addEventListener("click", (e) => {
   if (name.value === "" || age.value === "") {
-    alert("Please enter valid details.");
+    alert("Please enter valid details");
     return;
   }
   e.preventDefault();
